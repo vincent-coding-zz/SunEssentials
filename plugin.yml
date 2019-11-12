@@ -1,0 +1,45 @@
+name: SunEssentials
+version: 1.2
+author: VincentCoding
+main: fr.vcoding.sunessentials.Main
+
+commands:
+  gm:
+    description: Change your gamemode
+    permission: gm.use
+  suicide:
+    description: Kill yourself
+    permission: sk.use
+  sk:
+    description: Kills a selected entity
+    permission: sk.use
+  bc:
+    description: Alias of alert
+    permission: bc.use
+  alert:
+    description: Send a message to all players
+    permission: bc.use
+  reffect:
+    description: Remove all potions effects from a player
+    permission: reset.use
+  vanish:
+    description: Used to make a player invisible to other players
+    permission: vanish.use
+  unvanish:
+    description: Used to make a player visible to other players
+    permission: vanish.use
+  day:
+    description: Used to set the day
+    permission: time.use
+  night:
+    description: Used to set the night
+    permission: time.use
+  wclear:
+    description: Used to remove rain
+    permission: time.use
+  storm:
+    description: Used to put the storm
+    permission: time.use
+  wrain:
+    description: Used to put the rain
+    permission: time.use
