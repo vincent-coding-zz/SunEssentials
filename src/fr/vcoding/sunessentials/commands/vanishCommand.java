@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
 
 public class vanishCommand implements CommandExecutor {
 	
+	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		

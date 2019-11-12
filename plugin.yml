@@ -1,5 +1,5 @@
 name: SunEssentials
-version: 1.1
+version: 1.2
 author: VincentCoding
 main: fr.vcoding.sunessentials.Main
 
@@ -23,8 +23,23 @@ commands:
     description: Remove all potions effects from a player
     permission: reset.use
   vanish:
-    description: Used to make a player invisible to other players.
+    description: Used to make a player invisible to other players
     permission: vanish.use
   unvanish:
-    description: Used to make a player visible to other players.
+    description: Used to make a player visible to other players
     permission: vanish.use
+  day:
+    description: Used to set the day
+    permission: time.use
+  night:
+    description: Used to set the night
+    permission: time.use
+  wclear:
+    description: Used to remove rain
+    permission: time.use
+  storm:
+    description: Used to put the storm
+    permission: time.use
+  wrain:
+    description: Used to put the rain
+    permission: time.use
