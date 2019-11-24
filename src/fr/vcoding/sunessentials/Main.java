@@ -2,14 +2,7 @@ package fr.vcoding.sunessentials;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import fr.vcoding.sunessentials.commands.BrodcastClass;
-import fr.vcoding.sunessentials.commands.EffectClass;
-import fr.vcoding.sunessentials.commands.GamemodeClass;
-import fr.vcoding.sunessentials.commands.SkClass;
-import fr.vcoding.sunessentials.commands.SuicideClass;
-import fr.vcoding.sunessentials.commands.TimeClass;
-import fr.vcoding.sunessentials.commands.VanishClass;
-
+import fr.vcoding.sunessentials.commands.*;
 public class Main extends JavaPlugin {
 
 	@Override
@@ -28,6 +21,12 @@ public class Main extends JavaPlugin {
 		getCommand("wclear").setExecutor(new TimeClass());
 		getCommand("storm").setExecutor(new TimeClass());
 		getCommand("wrain").setExecutor(new TimeClass());
+		getCommand("wc").setExecutor(new TimeClass());
+		getCommand("ws").setExecutor(new TimeClass());
+		getCommand("wr").setExecutor(new TimeClass());
+		getCommand("fly").setExecutor(new FlyClass());
+		getCommand("explode").setExecutor(new ExplodeClass());
+		getCommand("top").setExecutor(new TopClass());
 	}
 	
 	@Override

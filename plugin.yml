@@ -1,5 +1,5 @@
 name: SunEssentials
-version: 1.2
+version: 1.3
 author: VincentCoding
 main: fr.vcoding.sunessentials.Main
 
@@ -9,10 +9,10 @@ commands:
     permission: gm.use
   suicide:
     description: Kill yourself
-    permission: sk.use
+    permission: kill.use
   sk:
-    description: Kills a selected entity
-    permission: sk.use
+    description: Kill a selected entity
+    permission: kill.use
   bc:
     description: Alias of alert
     permission: bc.use
@@ -43,3 +43,21 @@ commands:
   wrain:
     description: Used to put the rain
     permission: time.use
+  wc:
+    description: Alias of wclear
+    permission: time.use
+  wr:
+    description: Alias of wrain
+    permission: time.use
+  ws:
+    description: Alias of storm
+    permission: time.use
+  fly:
+    description: Allows you to activate or deactivate the fly
+    permission: fly.use
+  explode:
+    description: Blows up a player
+    permission: kill.use
+  top:
+    description: Allows to teleport to layer 255
+    permission: top.use
