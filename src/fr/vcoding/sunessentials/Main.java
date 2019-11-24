@@ -2,14 +2,7 @@ package fr.vcoding.sunessentials;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import fr.vcoding.sunessentials.commands.CommandGM;
-import fr.vcoding.sunessentials.commands.SkCommand;
-import fr.vcoding.sunessentials.commands.Suicides;
-import fr.vcoding.sunessentials.commands.TimeClass;
-import fr.vcoding.sunessentials.commands.bcCommand;
-import fr.vcoding.sunessentials.commands.resetEffect;
-import fr.vcoding.sunessentials.commands.vanishCommand;
-
+import fr.vcoding.sunessentials.commands.*;
 public class Main extends JavaPlugin{
 
 	@Override
@@ -28,6 +21,12 @@ public class Main extends JavaPlugin{
 		getCommand("wclear").setExecutor(new TimeClass());
 		getCommand("storm").setExecutor(new TimeClass());
 		getCommand("wrain").setExecutor(new TimeClass());
+		getCommand("wc").setExecutor(new TimeClass());
+		getCommand("wr").setExecutor(new TimeClass());
+		getCommand("ws").setExecutor(new TimeClass());
+		getCommand("fly").setExecutor(new flyClass());
+		getCommand("explode").setExecutor(new Explode());
+		getCommand("top").setExecutor(new TopCmd());
 	}
 
 	@Override

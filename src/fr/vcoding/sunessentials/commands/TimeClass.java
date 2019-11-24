@@ -22,19 +22,19 @@ public class TimeClass implements CommandExecutor {
 			return true;
 		}
 		
-		if(cmd.getName().equalsIgnoreCase("wclear")) {
+		if(cmd.getName().equalsIgnoreCase("wclear") || cmd.getName().equalsIgnoreCase("wc")) {
 			Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "weather clear");
 			sender.sendMessage("The rain has been removed!");
 			return true;
 		}
 		
-		if(cmd.getName().equalsIgnoreCase("storm")) {
+		if(cmd.getName().equalsIgnoreCase("storm") || cmd.getName().equalsIgnoreCase("ws")) {
 			Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "weather thunder");
 			sender.sendMessage("The thunderstorm has been put on well!");
 			return true;
 		}
 		
-		if(cmd.getName().equalsIgnoreCase("wrain")) {
+		if(cmd.getName().equalsIgnoreCase("wrain") || cmd.getName().equalsIgnoreCase("wr")) {
 			Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "weather rain");
 			sender.sendMessage("The rain has been put on well!");
 			return true;
